@@ -1,6 +1,6 @@
 # Animal-Details
 
-Welcome to the Animal Search App! This application allows users to search for animal details and view additional information about them.
+Welcome to the Animal Details App! This application allows users to search for animal details and view additional information about them.
 
 ## Features
 
