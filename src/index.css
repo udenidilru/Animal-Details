@@ -1,15 +1,32 @@
-.search-container {
-  margin-bottom: 20px;
-  text-align: right; 
-  padding-top: 10px;
-  margin-right: 300px;
+.search-box-container {
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: 10px;
+  padding-right: 200px;
+  padding-top: 30px;
 }
 
-.search-input {
-  padding: 10px;
-  margin-right: 10px;
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-input { 
+  width: 200px; 
+  padding: 10px; 
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  color: #888;
+  cursor: pointer;
 }
 
 .search-button {
