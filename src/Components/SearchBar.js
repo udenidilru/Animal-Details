@@ -21,17 +21,17 @@ const SearchBar = ({ onSearch }) => {
 
   return (
     <div className="search-box-container">
-    <div className="search-container">
-      <input
-        type="text"
-        value={searchTerm}
-        onChange={handleInputChange}
-        onKeyPress={handleKeyPress}
-        placeholder="Search"
-        className="search-input"
-      />
-      <FaSearch className="search-icon" onClick={handleSearch} />
-    </div>
+      <div className="search-container">
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={handleInputChange}
+          onKeyPress={handleKeyPress}
+          placeholder="Search"
+          className="search-input"
+        />
+        <FaSearch className="search-icon" onClick={handleSearch} />
+      </div>
     </div>
   );
 };

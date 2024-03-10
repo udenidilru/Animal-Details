@@ -29,9 +29,15 @@ function App() {
       <SearchBar onSearch={searchAnimal} />
       <h1 className="title">Animal Details</h1>
       {error && <p className="error-message">{error}</p>}
-      {animalDetails && animalDetails.slice(0, displayCount).map((animal, index) => ( 
-        <AnimalDetails key={index} animal={animal} />
-      ))}
+      {animalDetails && animalDetails.length > 0 ? ( 
+        animalDetails.slice(0, displayCount).map((animal, index) => ( 
+          <AnimalDetails key={index} animal={animal} />
+        ))
+      ) : (
+        <div className="message-box">
+          <p className="no-details-message">No animal details found.</p>
+        </div>
+      )}
       {animalDetails && animalDetails.length > displayCount && ( 
         <button className="show-more-button" onClick={handleShowMore}>Show More</button>
       )}

@@ -51,6 +51,7 @@
   margin-left: 300px;
   width: 300px;
   font-family: Calibri;
+  background-color: #8fbc8f;
 }
 
 .label {
@@ -60,10 +61,6 @@
 
 .characteristics {
   margin-top: 10px;
-}
-
-.characteristics h3 {
-  margin-bottom: 5px;
 }
 
 .characteristics ul {
