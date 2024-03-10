@@ -12,17 +12,20 @@ Welcome to the Animal Details App! This application allows users to search for a
 ## Screenshots
 
 ### Search by Name
+![image](https://github.com/udenidilru/Animal-Details/assets/40499515/ba93856c-ea30-4c11-9c80-8f00964caab9)
 
 
 
 
 
 ### Show More Button
+![image](https://github.com/udenidilru/Animal-Details/assets/40499515/11e8abd6-5641-4a4e-9f0d-4ca363f790eb)
 
 
 
 
 ### No Animals Found
+![image](https://github.com/udenidilru/Animal-Details/assets/40499515/b61be1b7-5bb7-423d-a794-bbdc3e05ccd8)
 
 
 ## Getting Started
