@@ -35,7 +35,7 @@ function App() {
         ))
       ) : (
         <div className="message-box">
-          <p className="no-details-message">No animal details found.</p>
+          <p className="no-details-message">No animals found.</p>
         </div>
       )}
       {animalDetails && animalDetails.length > displayCount && ( 

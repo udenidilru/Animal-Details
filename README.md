@@ -17,17 +17,6 @@ Welcome to the Animal Details App! This application allows users to search for a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ### Show More Button
 
 
