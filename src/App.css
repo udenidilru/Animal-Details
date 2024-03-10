@@ -1,8 +1,10 @@
 .title {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center; 
+  padding-left: 25%;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Calibri;
 }
 
 .error-message {
